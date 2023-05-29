@@ -21,13 +21,4 @@ class TokenInterceptor extends Interceptor {
 
     return super.onRequest(options, handler);
   }
-
-// TODO: onResponse method. Check if errorStatus is 401?
-// @override
-// Future onError(DioError err, ErrorInterceptorHandler handler) async {
-//   if (err.response?.statusCode == 401){
-//
-//   }
-//   throw err;
-// }
 }
